@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Orbitron:wght@700&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Astronomy Picture of the Day</title>
+  </head>
+
+  <body>
+    <div class="container-fluid my-auto">
+      <h1 class="display-3 text-center">Astronomy Picture of the Day</h1>
+    </div>
+
+    <!-- search bar and input goes here -->
+    <div class="container">
+      <div class="row">
+        <div class="col-4 bg-light">
+          <p class="search-header my-1">Random APOD Search!</p>
+          <div class="input-group mb-3">
+            <input
+              id="city-input"
+              type="text"
+              class="form-control"
+              aria-label="name"
+            />
+            <div class="input-group-append">
+              <button class="btn btn-primary search-button" type="button">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Placeholder area for primary city to populate w/ details-->
+    <div class="row mr-0">
+      <div class="col-12 border border-dark m-3 rounded">
+        <div class="row">
+          <div class="col-12">
+            <!-- <span id="copyright-author" class="city-name align-middle">
+              Author:
+            </span> -->
+            <!-- <img id="current-pic" src="placeholder" alt=""> -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p id="copyright-author">Author:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p id="date">Date:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p id="explanation">Description:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p id="img" class="img-style">Image:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 d-flex">
+            <p id="title">Title:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 d-flex">
+            <p id="link">Link:</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <!-- <section id="weather-cards">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Date Title</h5>
+              <p class="card-text-temp">Temp placeholder</p>
+              <p class="card-text-humidity">Humidity placeholder</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Date Title</h5>
+              <p class="card-text-temp">Temp placeholder</p>
+              <p class="card-text-humidity">Humidity placeholder</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Date Title</h5>
+              <p class="card-text-temp">Temp placeholder</p>
+              <p class="card-text-humidity">Humidity placeholder</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Date Title</h5>
+              <p class="card-text-temp">Temp placeholder</p>
+              <p class="card-text-humidity">Humidity placeholder</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">Date Title</h5>
+              <p class="card-text-temp">Temp placeholder</p>
+              <p class="card-text-humidity">Humidity placeholder</p>
+            </div>
+          </div>
+        </section> -->
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

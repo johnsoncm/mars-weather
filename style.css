@@ -1,0 +1,73 @@
+* {
+  font-family: "Roboto";
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1528818955841-a7f1425131b5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.search-header {
+  color: black;
+}
+
+.img-style {
+  max-width: 50%;
+  max-height: 50px;
+}
+
+#weather-cards {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.main-card {
+  border: 10px solid black;
+}
+
+.text-primary {
+  text-align: center;
+}
+
+.container-fluid {
+  background-color: rgb(60, 56, 56);
+  color: white;
+}
+.display-3 {
+  font-family: "Righteous";
+}
+
+.city-name {
+  font-size: 30px;
+}
+
+.card-text-temp {
+  padding-top: 70px;
+}
+
+.card-text-humidity {
+  padding-top: 30px;
+}
+
+.card-body {
+  background-color: rgb(32, 32, 198);
+  color: white;
+  padding-left: 100px;
+}
+
+.mr-0 {
+  display: flex;
+  flex-direction: initial;
+  background: transparent;
+}
