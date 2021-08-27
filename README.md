@@ -1,1 +1,1 @@
-# mars-weather
+# Astrology Photo of the Day
